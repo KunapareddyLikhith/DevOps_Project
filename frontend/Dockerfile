@@ -8,6 +8,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV NEXT_PUBLIC_API_BASE_URL=http://nginx/api
+ENV NEXT_PUBLIC_API_BASE_URL=http://localhost/api
 
 CMD [ "npm","run","dev" ]
